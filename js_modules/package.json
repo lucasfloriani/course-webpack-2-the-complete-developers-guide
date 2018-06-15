@@ -1,0 +1,14 @@
+{
+  "name": "js_modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "Lucas Floriani <lucas.floriane@gmail.com> (https://github.com/lucasfloriani)",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^2.2.0-rc.0"
+  }
+}
