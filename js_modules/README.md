@@ -4,6 +4,10 @@ Sua principal funcionalidade é combinar arquivos (js, sass, etc) gerando assim 
 
 Junto com está funcionalidade, pode se adicionar funções extras como minificação de arquivos, transpilação de códigos, adição de suporte a navegadores, dentre muitas outras coisas.
 
+## Code splitting
+
+Carregar certas partes do bundle somente quando for realmente necessário.
+
 ## Loaders (module)
 
 Realizam um preprocessamento nos arquivos antes de juntarem no arquivo bundle, como por exemplo loaders para fazer a transpilação para códigos javascript com maior suporte com o babel.
