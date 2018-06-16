@@ -12,6 +12,12 @@ Carregar certas partes do bundle somente quando for realmente necessário.
 
 Gerencia inconsistencias do comando de remover arquivos de sistemas operacionais, onde cada um contem seu próprio comando para remoção.
 
+### Webpack Dev Server
+
+Cria um server localhost para desenvolvimento, realizando auto compile dos arquivos e auto refresh quando algum arquivo do projeto é alterado. Porem alterações realizadas nas configurações do webpack para serem efetuadas, precisa-se realizar o restart do server.
+Suas alterações são armazenadas somente dentro do servidor na memória. Para enviar os arquivos finais você precisará rodar o comando do webpack para realmente alterar os arquivos da pasta de output.
+OBS: Usado somente para desenvolvimento.
+
 ## Loaders (module)
 
 Realizam um preprocessamento nos arquivos antes de juntarem no arquivo bundle, como por exemplo loaders para fazer a transpilação para códigos javascript com maior suporte com o babel.
