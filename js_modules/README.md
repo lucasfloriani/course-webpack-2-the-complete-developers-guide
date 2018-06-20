@@ -52,3 +52,7 @@ Verifica se foi importado arquivos duplicados e adiciona somente no local indica
 ### HTMLWebpackPlugin
 
 Adiciona automaticamente os links dos scripts criando seu próprio arquivo html, substituindo a função de manualmente trocar os arquivos bundle no html.
+
+### DefinePlugin
+
+Usado para declarar variaveis de ambiente dentro do arquivo output
